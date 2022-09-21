@@ -14,10 +14,10 @@
     <body>
         <h1>Simple Note Keeper</h1>
         <h2>View Note</h2>
-        <form>
-            <p><label for="title">Title:</label><input id="title" type="text"></p>
+        <form action="note" method="post">
+            <p><label for="title">Title:</label><input id="title" name="title" type="text"></p>
             <p><label for="contents">Contents:</label>
-                <textarea id="contents"></textarea>
+                <textarea id="contents" name="contents"></textarea>
             </p>
             <button type="submit">Submit</button>
         </form>
